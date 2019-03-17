@@ -1,0 +1,59 @@
+body {
+    background: url(../images/background.png);
+}
+
+main {
+    margin-top: 15px;
+    padding: 15px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+footer {
+    padding: 7px;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.nav-container {
+    padding: 0;
+}
+
+.a-nav {
+    font-size: 1.2em;
+}
+
+.btn-mid {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.nav-name {
+    background-color: #4aaaa5;
+    padding: 10px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.nav-row {
+    border-bottom: 2px solid #cccccc;
+    padding-top: 15px;
+}
+
+.content-head {
+    border-bottom: 2px solid #cccccc;
+}
