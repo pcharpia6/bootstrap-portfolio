@@ -1,10 +1,13 @@
+
 body {
     background: url(../images/background.png);
 }
 
 main {
     margin-top: 15px;
+    margin-bottom: 90px;
     padding: 15px;
+
 }
 
 p {
@@ -21,8 +24,9 @@ footer {
     border-top: 8px solid #4aaaa5;
 }
 
-.btn {
-    border-radius: 0;
+.btn-submit {
+    background-color: #4aaaa5;
+    color: white;
 }
 
 .container {
@@ -40,6 +44,7 @@ footer {
 .btn-mid {
     border-left: 1px solid black;
     border-right: 1px solid black;
+    border-radius: 0;
 }
 
 .nav-name {
@@ -56,4 +61,28 @@ footer {
 
 .content-head {
     border-bottom: 2px solid #cccccc;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.bg-f {
+    background-color: #ffffff;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 60%;
+    right: 0;
+    left: 0;
+    background-color: #4aaaa5;
+    padding: 10px;
+    color: white;
+    margin: 15px;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.link-img {
+    margin: 10px 0px;
 }

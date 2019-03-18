@@ -8,7 +8,7 @@
     <title>Bootstrap Portfolio</title>
 </head>
 <body>
-    <nav class="bg-light container-fluid nav-row">
+    <nav class="bg-f container-fluid nav-row">
         <div class="container nav-container">
             <div class="row justify-content-between align-items-end">
                 <div class="col-sm-5">
@@ -19,40 +19,29 @@
                     <ul>
                         <li class="btn d.inline"><a class="txt-decoration-none text-muted a-nav" href="index.html">About</a></li>
                         <li class="btn d.inline btn-mid"><a class="txt-decoration-none text-muted a-nav" href="portfolio.html" id="mid-line">Portfolio</a></li>
-                        <li class=" btn d.inline"><a class="txt-decoration-none text-muted a-nav" href="contact.html">Contact</a></li>
+                        <li class="btn d.inline"><a class="txt-decoration-none text-muted a-nav" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </nav>
-    <main class="container bg-light">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2 class="content-head">About Me</h2>
-                    <div class="row">
-                        <div class="col-sm-3">
-                            <img src="assets/images/headshot.jpg" width=100%>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <p>
-                                I work for a data generation company in RTP specializing in Metabolomics. Specifically I manage the chemistry personnel providing samples to be analyzed. This position supplies a never-ending list of new and exciting challenges every day. I have become quite knowledgable about extraction chemistry, personality management, long-term task completion tracking, and also quite skilled in problem solving.
-                            </p>
-                            <p>
-                                I met my wife on the dating website E-Harmony 5 years ago. It did not take long for us to be married and ready to find a place to settle down. Mebane has wonderful amenities and a small town feel, not to mention the cheapest property taxes in the area, and so we found a small house to buy. We make such a great team that we decided to grow our team, and we took on a beautiful healthy baby boy in December of 2016. His joy and energy make a wonderful end to every day.
-                            </p>
-                            <p>
-                                Now I have decided to take on the mammoth task of learning web development computer engineering. Hopefully the UNC Coding Bootcamp will help that process along!
-                            </p>
-                        </div>
-
-                    </div>
-
-                </div>
-        </div>
-
-
+    <main class="container bg-f">
+        <h2 class="content-head">Contact</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="form-name" placeholder="John Doe">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" class="form-control" id="form-email" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="form-message">Message</label>
+                <textarea class="form-control" id="form-message" rows="3" placeholder="Enter Text"></textarea>
+            </div>
+            <button type="submit" class="btn btn-submit">Submit</button>
+        </form>
 
     </main>
     <footer class="text-light text-center fixed-bottom">
