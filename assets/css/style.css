@@ -28,16 +28,18 @@ footer {
     color: white;
 }
 
-.container {
-    max-width: 960px;
-}
-
 .nav-container {
     padding: 0;
 }
 
 .a-nav {
     font-size: 1.2em;
+}
+
+.headshot {
+    float: left;
+    margin: 0px 15px 15px 0px;
+    padding-right: 15px;
 }
 
 .btn-mid {
@@ -84,4 +86,8 @@ footer {
 
 .link-img {
     margin: 10px 0px;
+}
+
+.no-flex {
+    display: block;
 }
